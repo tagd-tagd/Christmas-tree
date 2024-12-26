@@ -22,7 +22,7 @@ declare a
 [[ $COLS -lt 45 || $LINES -lt 24 ]] && {
   echo Minimal terminal size 45x24
   exit 1 ; }
-
+# Text Color Variables http://misc.flogisoft.com/bash/tip_colors_and_formatting
 tcLtG="\033[00;37m"    # LIGHT GRAY
 tcDkG="\033[01;30m"    # DARK GRAY
 tcLtR="\033[01;31m"    # LIGHT RED
