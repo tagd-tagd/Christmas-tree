@@ -40,7 +40,9 @@ function quit(){
   tput cnorm
   exit
 }
-trap 'quit' SIGINT SIGTERM SIGHUP
+trap '' SIGINT
+trap 'quit' SIGTERM SIGHUP
+
 clear
 tput civis
 i=$STAR_NUM
